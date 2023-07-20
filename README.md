@@ -1,16 +1,19 @@
-### Hi there 👋
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Welcome To TingunVR Offical Website</h1>
+<h2>Theres A Button That You Can Click To Get The Discord To TingunVR!</h2>
+<h3>This is Just A Testing Website, Nothing Works Yet</h3>
 
-<!--
-**TingunVR/TingunVR** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<button onclick="myFunction()">Click me</button>
 
-Here are some ideas to get you started:
+<p id="demo"></p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Tingun Da Best Game";
+}
+</script>
+
+</body>
+</html>
